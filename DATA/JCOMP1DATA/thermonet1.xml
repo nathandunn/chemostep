@@ -1,0 +1,117 @@
+<network size="8" timeStep="1">
+<note>
+    <description value="Toy thermo network.  One boolean gate and two opposing differentiators." />
+</note>
+<node nodeNumber="0">
+  <bias value="0" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="1">
+  <bias value="0" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="2">
+  <bias value="0" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="3">
+  <bias value="0" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="4">
+  <bias value="0" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="5">
+  <bias value="-2" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="6">
+  <bias value="-2" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="7">
+  <bias value="0" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<weight  nodefrom="0" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="0" nodeto="1" weight="4.1588" mask="1"/>
+<weight  nodefrom="0" nodeto="2" weight="-2.07944" mask="1"/>
+<weight  nodefrom="0" nodeto="3" weight="1" mask="1"/>
+<weight  nodefrom="0" nodeto="4" weight="1" mask="1"/>
+<weight  nodefrom="0" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="0" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="0" nodeto="7" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="1" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="2" weight="-0.693147" mask="1"/>
+<weight  nodefrom="1" nodeto="3" weight="-5" mask="1"/>
+<weight  nodefrom="1" nodeto="4" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="7" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="1" weight="-1.38629" mask="1"/>
+<weight  nodefrom="2" nodeto="2" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="3" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="4" weight="-5" mask="1"/>
+<weight  nodefrom="2" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="7" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="1" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="2" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="3" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="4" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="5" weight="4" mask="1"/>
+<weight  nodefrom="3" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="7" weight="1" mask="1"/>
+<weight  nodefrom="4" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="1" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="2" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="3" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="4" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="6" weight="4" mask="1"/>
+<weight  nodefrom="4" nodeto="7" weight="-1" mask="1"/>
+<weight  nodefrom="5" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="1" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="2" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="3" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="4" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="7" weight="-1" mask="1"/>
+<weight  nodefrom="6" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="1" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="2" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="3" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="4" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="7" weight="1" mask="1"/>
+<weight  nodefrom="7" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="1" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="2" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="3" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="4" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="7" weight="0" mask="1"/>
+</network>

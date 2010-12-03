@@ -1,0 +1,165 @@
+<network size="10" timeStep="1">
+<note error="6.2" valid="1" />
+<errorModel type="AUTODUALLIMIT" lowThresh="0.510246" highThresh="0.510362"  />
+<evalModel type="ONENODE" numOutputs="1"  />
+<node nodeNumber="0">
+  <bias value="12.377" mask="1"/>
+  <tau value="3.38328" mask="1"/>
+  <vmem value="0.651814"/>
+  <vinit value="0.65038"/>
+</node>
+<node nodeNumber="1">
+  <bias value="-8.49879" mask="1"/>
+  <tau value="11.6863" mask="1"/>
+  <vmem value="1.88612e-08"/>
+  <vinit value="1.89835e-08"/>
+</node>
+<node nodeNumber="2">
+  <bias value="-16.8897" mask="1"/>
+  <tau value="4.54163" mask="1"/>
+  <vmem value="1.0047e-12"/>
+  <vinit value="9.83048e-13"/>
+</node>
+<node nodeNumber="3">
+  <bias value="-10.4122" mask="1"/>
+  <tau value="3.2512" mask="1"/>
+  <vmem value="1"/>
+  <vinit value="1"/>
+</node>
+<node nodeNumber="4">
+  <bias value="5.66766" mask="1"/>
+  <tau value="7.51351" mask="1"/>
+  <vmem value="0.774964"/>
+  <vinit value="0.771985"/>
+</node>
+<node nodeNumber="5">
+  <bias value="4.04135" mask="1"/>
+  <tau value="10.6943" mask="1"/>
+  <vmem value="0.00044598"/>
+  <vinit value="0.000458906"/>
+</node>
+<node nodeNumber="6">
+  <bias value="-5.77645" mask="1"/>
+  <tau value="4.41727" mask="1"/>
+  <vmem value="0.903337"/>
+  <vinit value="0.903767"/>
+</node>
+<node nodeNumber="7">
+  <bias value="6.70426" mask="1"/>
+  <tau value="3.97623" mask="1"/>
+  <vmem value="1"/>
+  <vinit value="1"/>
+</node>
+<node nodeNumber="8">
+  <bias value="-8.2565" mask="1"/>
+  <tau value="5.92387" mask="1"/>
+  <vmem value="1"/>
+  <vinit value="1"/>
+</node>
+<node nodeNumber="9">
+  <bias value="-3.99285" mask="1"/>
+  <tau value="3" mask="1"/>
+  <vmem value="0.509301"/>
+  <vinit value="0.510293"/>
+</node>
+<weight  nodefrom="0" nodeto="0" weight="-20.8932" mask="1"/>
+<weight  nodefrom="0" nodeto="1" weight="-7.23056" mask="1"/>
+<weight  nodefrom="0" nodeto="2" weight="-4.76525" mask="1"/>
+<weight  nodefrom="0" nodeto="3" weight="-1.4703" mask="1"/>
+<weight  nodefrom="0" nodeto="4" weight="-0.964715" mask="1"/>
+<weight  nodefrom="0" nodeto="5" weight="-0.244543" mask="1"/>
+<weight  nodefrom="0" nodeto="6" weight="0.931198" mask="1"/>
+<weight  nodefrom="0" nodeto="7" weight="11.5668" mask="1"/>
+<weight  nodefrom="0" nodeto="8" weight="14.6328" mask="1"/>
+<weight  nodefrom="0" nodeto="9" weight="14.3543" mask="1"/>
+<weight  nodefrom="1" nodeto="0" weight="1.79626" mask="1"/>
+<weight  nodefrom="1" nodeto="1" weight="-7.90923" mask="1"/>
+<weight  nodefrom="1" nodeto="2" weight="-2.68319" mask="1"/>
+<weight  nodefrom="1" nodeto="3" weight="-2.42405" mask="1"/>
+<weight  nodefrom="1" nodeto="4" weight="7.75244" mask="1"/>
+<weight  nodefrom="1" nodeto="5" weight="5.92135" mask="1"/>
+<weight  nodefrom="1" nodeto="6" weight="1.09593" mask="1"/>
+<weight  nodefrom="1" nodeto="7" weight="6.07379" mask="1"/>
+<weight  nodefrom="1" nodeto="8" weight="-14.57" mask="1"/>
+<weight  nodefrom="1" nodeto="9" weight="3.03762" mask="1"/>
+<weight  nodefrom="2" nodeto="0" weight="5.52235" mask="1"/>
+<weight  nodefrom="2" nodeto="1" weight="-0.636583" mask="1"/>
+<weight  nodefrom="2" nodeto="2" weight="2.75967" mask="1"/>
+<weight  nodefrom="2" nodeto="3" weight="-1.05802" mask="1"/>
+<weight  nodefrom="2" nodeto="4" weight="-5.21496" mask="1"/>
+<weight  nodefrom="2" nodeto="5" weight="3.97503" mask="1"/>
+<weight  nodefrom="2" nodeto="6" weight="20.5864" mask="1"/>
+<weight  nodefrom="2" nodeto="7" weight="-3.88641" mask="1"/>
+<weight  nodefrom="2" nodeto="8" weight="15.1222" mask="1"/>
+<weight  nodefrom="2" nodeto="9" weight="15.9563" mask="1"/>
+<weight  nodefrom="3" nodeto="0" weight="5.4828" mask="1"/>
+<weight  nodefrom="3" nodeto="1" weight="-10.7876" mask="1"/>
+<weight  nodefrom="3" nodeto="2" weight="-15.5442" mask="1"/>
+<weight  nodefrom="3" nodeto="3" weight="7.24052" mask="1"/>
+<weight  nodefrom="3" nodeto="4" weight="-14.3725" mask="1"/>
+<weight  nodefrom="3" nodeto="5" weight="-10.5863" mask="1"/>
+<weight  nodefrom="3" nodeto="6" weight="-5.89813" mask="1"/>
+<weight  nodefrom="3" nodeto="7" weight="6.21499" mask="1"/>
+<weight  nodefrom="3" nodeto="8" weight="0.53455" mask="1"/>
+<weight  nodefrom="3" nodeto="9" weight="-1.64453" mask="1"/>
+<weight  nodefrom="4" nodeto="0" weight="-5.5815" mask="1"/>
+<weight  nodefrom="4" nodeto="1" weight="6.49555" mask="1"/>
+<weight  nodefrom="4" nodeto="2" weight="6.60353" mask="1"/>
+<weight  nodefrom="4" nodeto="3" weight="17.3803" mask="1"/>
+<weight  nodefrom="4" nodeto="4" weight="5.79814" mask="1"/>
+<weight  nodefrom="4" nodeto="5" weight="-7.89223" mask="1"/>
+<weight  nodefrom="4" nodeto="6" weight="-2.71136" mask="1"/>
+<weight  nodefrom="4" nodeto="7" weight="17.3367" mask="1"/>
+<weight  nodefrom="4" nodeto="8" weight="10.1355" mask="1"/>
+<weight  nodefrom="4" nodeto="9" weight="-14.2935" mask="1"/>
+<weight  nodefrom="5" nodeto="0" weight="3.51879" mask="1"/>
+<weight  nodefrom="5" nodeto="1" weight="-4.68572" mask="1"/>
+<weight  nodefrom="5" nodeto="2" weight="-4.39108" mask="1"/>
+<weight  nodefrom="5" nodeto="3" weight="-15.4568" mask="1"/>
+<weight  nodefrom="5" nodeto="4" weight="1.7436" mask="1"/>
+<weight  nodefrom="5" nodeto="5" weight="-0.444315" mask="1"/>
+<weight  nodefrom="5" nodeto="6" weight="6.42292" mask="1"/>
+<weight  nodefrom="5" nodeto="7" weight="-22.6119" mask="1"/>
+<weight  nodefrom="5" nodeto="8" weight="27.0885" mask="1"/>
+<weight  nodefrom="5" nodeto="9" weight="-5.41946" mask="1"/>
+<weight  nodefrom="6" nodeto="0" weight="-0.099092" mask="1"/>
+<weight  nodefrom="6" nodeto="1" weight="5.64105" mask="1"/>
+<weight  nodefrom="6" nodeto="2" weight="-3.80752" mask="1"/>
+<weight  nodefrom="6" nodeto="3" weight="17.2953" mask="1"/>
+<weight  nodefrom="6" nodeto="4" weight="-5.39569" mask="1"/>
+<weight  nodefrom="6" nodeto="5" weight="2.78801" mask="1"/>
+<weight  nodefrom="6" nodeto="6" weight="2.47026" mask="1"/>
+<weight  nodefrom="6" nodeto="7" weight="10.8517" mask="1"/>
+<weight  nodefrom="6" nodeto="8" weight="2.88011" mask="1"/>
+<weight  nodefrom="6" nodeto="9" weight="4.45464" mask="1"/>
+<weight  nodefrom="7" nodeto="0" weight="8.74733" mask="1"/>
+<weight  nodefrom="7" nodeto="1" weight="0.750113" mask="1"/>
+<weight  nodefrom="7" nodeto="2" weight="0.700742" mask="1"/>
+<weight  nodefrom="7" nodeto="3" weight="1.05198" mask="1"/>
+<weight  nodefrom="7" nodeto="4" weight="3.94584" mask="1"/>
+<weight  nodefrom="7" nodeto="5" weight="-0.724681" mask="1"/>
+<weight  nodefrom="7" nodeto="6" weight="12.722" mask="1"/>
+<weight  nodefrom="7" nodeto="7" weight="10.7127" mask="1"/>
+<weight  nodefrom="7" nodeto="8" weight="-7.0038" mask="1"/>
+<weight  nodefrom="7" nodeto="9" weight="2.36117" mask="1"/>
+<weight  nodefrom="8" nodeto="0" weight="-7.16981" mask="1"/>
+<weight  nodefrom="8" nodeto="1" weight="-5.8911" mask="1"/>
+<weight  nodefrom="8" nodeto="2" weight="14.1942" mask="1"/>
+<weight  nodefrom="8" nodeto="3" weight="-5.49901" mask="1"/>
+<weight  nodefrom="8" nodeto="4" weight="-5.85826" mask="1"/>
+<weight  nodefrom="8" nodeto="5" weight="11.4751" mask="1"/>
+<weight  nodefrom="8" nodeto="6" weight="5.75398" mask="1"/>
+<weight  nodefrom="8" nodeto="7" weight="9.70907" mask="1"/>
+<weight  nodefrom="8" nodeto="8" weight="5.78481" mask="1"/>
+<weight  nodefrom="8" nodeto="9" weight="11.1804" mask="1"/>
+<weight  nodefrom="9" nodeto="0" weight="-2.60898" mask="1"/>
+<weight  nodefrom="9" nodeto="1" weight="2.42987" mask="1"/>
+<weight  nodefrom="9" nodeto="2" weight="-16.9799" mask="1"/>
+<weight  nodefrom="9" nodeto="3" weight="-7.38534" mask="1"/>
+<weight  nodefrom="9" nodeto="4" weight="25.2086" mask="1"/>
+<weight  nodefrom="9" nodeto="5" weight="-15.9851" mask="1"/>
+<weight  nodefrom="9" nodeto="6" weight="-10.405" mask="1"/>
+<weight  nodefrom="9" nodeto="7" weight="-2.50104" mask="1"/>
+<weight  nodefrom="9" nodeto="8" weight="17.8116" mask="1"/>
+<weight  nodefrom="9" nodeto="9" weight="-19.9648" mask="1"/>
+</network>

@@ -1,0 +1,16 @@
+todo:
+* implement "annealer": 
+    * what does delta do?
+* add more options (angle, anneal parameters, tracefile, etc.)
+* make parallel
+* add the ability to adjust timeSteps (localDt), also in relaxNet (relaxDt) in WormSimEval   . . . have an mSimDt value for BlitzEulerLiveNet and WormSimEval.
+* have "annealer" app use QtThreads (more C++ compliant, vs pthreads), somehow, to allow stops
+
+Later:
+* add load/save functionality for the guiapp
+* add worm data output, from WormSimEval 
+* have annealer and net 
+
+Notes:
+* a good toy network should be the regular differntial network, but with really large connections.  Additionally, it may need to be re-balanced for a bias with a lower probability for turning (e.g., 0.08).
+* Dummy entry 

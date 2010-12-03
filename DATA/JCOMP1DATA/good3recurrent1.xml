@@ -1,0 +1,32 @@
+<network size="3" timeStep="1">
+<note error="6.05" valid="1" delay=" 0 "/>
+<errorModel type="AUTODUALLIMIT" lowThresh="0.417974" highThresh="0.41818"  />
+<!--<evalModel type="ONENODE" numOutputs="1"  />-->
+<node nodeNumber="0">
+  <bias value="-0.5" mask="0"/>
+  <tau value="3" mask="0"/>
+  <vmem value="0.5" mask="0"/>
+  <vinit value="0.5" mask="0"/>
+</node>
+<node nodeNumber="1">
+  <bias value="-7" mask="0"/>
+  <tau value="20" mask="0"/>
+  <vmem value="0.5" mask="0"/>
+  <vinit value="0.5" mask="0"/>
+</node>
+<node nodeNumber="2">
+  <bias value="0" mask="0"/>
+  <tau value="3" mask="0"/>
+  <vmem value="0.5" mask="0"/>
+  <vinit value="0.5" mask="0"/>
+</node>
+<weight  nodefrom="0" nodeto="0" weight="0" mask="0"/>
+<weight  nodefrom="0" nodeto="1" weight="4" mask="0"/>
+<weight  nodefrom="0" nodeto="2" weight="10" mask="1"/>
+<weight  nodefrom="1" nodeto="0" weight="0" mask="0"/>
+<weight  nodefrom="1" nodeto="1" weight="0" mask="0"/>
+<weight  nodefrom="1" nodeto="2" weight="-10" mask="1"/>
+<weight  nodefrom="2" nodeto="0" weight="0" mask="0"/>
+<weight  nodefrom="2" nodeto="1" weight="10" mask="0"/>
+<weight  nodefrom="2" nodeto="2" weight="0" mask="0"/>
+</network>

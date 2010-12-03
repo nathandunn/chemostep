@@ -1,0 +1,21 @@
+
+2003_10_12:  just ran 0-0, 0-50, 50-0, and 50-50.  Looked okay.
+
+2003_10_14:  ran app for the small amount of data, and it seemed to come up with pretty good data, although it missed the biggest steps.  Because of this, we are looking at using either more efficient data algorithms and/or using smaller time-steps.  
+
+2003_10_15:  added the remainder of the tests, (1-16), but had the problem that due to the large number of tests, the best network is control, which means, that we REALLY need to either train for significance, or we DON'T need to train for control.  Possibly both.  
+
+2003_10_16:  modified so that there is no control data.  So that it would find more points.  Verified that the tests were correct.  Data for the run on 2003_10_16, still was incorrect.  Will try running with many more iterations per cycle, instead for 2003_10_17.  Because 2003_10_17 seems to be running better, it might be good to try the same thing, with fewer temperatures, but with more processors (np 50), since the more global aspects of the search seem to help.  
+
+2003_10_17:  Analyzed 2003_10_17.  It appears as though the network began to find points.  However, without specifically knowing about significance, it might be hard to evaluate.  For right now, probably better to add external text files to imply significance.    Note, that we don't want points to be smoothed to the mean, we just want to measure more significant points more.  Need to get the full values to do it intrinsically (need standard deviation for each point). 
+
+Ran the stats on drand48, and gave the same mean (0.5) and stdev (~0.288).  
+
+2003_10_18:  Added the average output (for binned data) and the significance maker.  It trained up with the proper points in mind, but its still unable to get the right data because deltaT, or its ability to calculate it, is too large and/or inaccurate. 
+
+2003_10_19:  Re-ran the tests for 2003_10_18, but with more runs/search, to see if a more global search was needed.  The result was much lower error as the network was able to hit more of the high-error points, but it was unstable through the flat regions because of the high tau.  Moving to a better network type is a must.  
+
+2003_10_20:  Will re-run 2003_10_18, but with a lower dt.   
+
+
+

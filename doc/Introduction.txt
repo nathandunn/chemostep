@@ -1,0 +1,88 @@
+/*! \mainpage auto3/chemostep - Automated gui generation and neural network library.
+*
+* Last Modified On:
+*	October 22, 2003
+*
+* \section intro Introduction
+*
+* The auto3 package is a combination of several packages, including Autogui, which provides gui automation for scientific applications, and chemostep, which is a neural network tools package.  The aim of the neural network package is to evaluate the chemotaxis circuit in <i>C. elegans</i>.  It is bundled with the Autogui pakcage in order to provide a proof of concept for that application.  Both packages have the additional difficulty that they must support parallel applications.  
+*
+* Developed by : <a href=http://precog.uoregon.edu/>Nathan Dunn</A> and others at the Institute of Neuroscience and Computer Science Department, University of Oregon.  
+*
+* \section usage Getting Started
+*
+* \subsection Dependencies
+*
+* Installation of the following packages is necessary:
+* <ul>
+* <li> <a href=http://www.trolltech.com>qt3</a> for gui rendering (qtAUTOGUI_2) </li>
+* <li> <a href=http://sourceforge.net/projects/blitz/ > blitz </a> for array manipulation efficiency (blitzchemostep) </li>
+* </ul>
+*
+* <p> An xml library <a href=http://sourceforge.net/projects/tinyxml/ > tinyxml </a> is included is <b>included</b> for xml processing. </p> 
+*
+* <p>Support for parllel execution is provided using <a href=http://www-unix.mcs.anl.gov/mpi/mpich/> mpich </a> but is <b>optional</b> if parallel excecution in the chemostep package is not required.  To configure without mpi use the ./configure --disable-mpi option.</p>
+*
+* Additionally, this was built using gcc3.3, and has been successfully compiled on Linux (Slackware 8.1), MacOSX.2-3, and Solaris 2.9.  Additionally, many classes rely heavily on stl for containers templates, so these should also be up to date. 
+*
+*
+* \subsection Modules
+*
+* Below are separate cvs modules constructed in order of least to most dependencies.  All of these are checked out of cvs using the auto3 meta-tag. 
+*
+<!--* <h4>Autogui libraries</h4>-->
+<!--* <ul>-->
+<!--*  <li>tinyxml:  A small xml package provided for convenience.  Provided at the above link (not part of this project).  -->
+<!--*  <li>AUTOGUI_2:  Classes which provide reflection and xml rendering required in order to render GUI as feasible as well as base GUI rendering classes.    -->
+<!--*  <li>tinyAUTOGUI_2:  Xml rendering classes for AUTOGUI_2 which use the tinyxml library for parsing.  (deps:  tinyxml, AUTOGUI_2)-->
+<!--*  <li>qtAUTOGUI_2:  Provides concrete qt rendering of classes.  (deps: AUTOGUI_2, qt3)-->
+<!--*  <li>testclasses:  A small suite of testclasses that doesn't do anything, but extend AppInterface.hpp in AUTOGUI_2.  (deps:  all other Autogui libraries)-->
+<!--* </ul>-->
+*
+<!--* <h4>Autogui apps</h4>-->
+<!--* <ul>-->
+<!--*  <li>testappsAUTO:  Tests for basic functionality and rendering using the testclasses.  (deps:  Autogui libraries)-->
+<!--*  </ul>-->
+*
+*
+<!--* <h4>chemostep libraries</h4>-->
+<!--* <ul>-->
+<!--*  <li>chemostepAUTO:  Neural network, annealer, and supporting classes.  (deps: AUTOGUI_2 only, though this is artifical, currently).  -->
+<!--*  <li>blitzchemostep:  Extends and provides concrete implementations of chemostepAUTO classes to use blitz arrays.  (deps:  chemostepAUTO)-->
+<!--* </ul>-->
+<!--*-->
+<!--*  <h4>chemostep data</h4>-->
+<!--*  <ul>-->
+<!--*  <li>CHEMOSTEP_DATA:  Data from real worms used in simulations.  -->
+<!--*  </ul>-->
+<!--*-->
+<!--* <h4>chemostep apps</h4>-->
+<!--* <ul>-->
+<!--* <li>chemoappAUTO:  Apps which test and run chemostep applications using CHEMOSTEP_DATA.  (deps:  chemostepAUTO, blitzchemostep)-->
+<!--* </ul>-->
+<!--*-->
+*
+* \subsection Building 
+*
+* Each application must be built in the order of its dependencies.  Currently this involves running "./configure ; make ; make install" to make headers available to people. 
+*
+*
+* \subsection autogui Autogui
+*
+* Autogui can be extended by any class in order to provide reflection and automatically building a gui for setting fields and methods. 
+*
+* \subsection chemostep chemostep
+* These classes can be extended as additional theories are needed.  
+* 
+*
+* \section issues Numerical approximation
+* The current, default approximation schema uses Euler's for evaluation.  Doing similar evaluations via Excel (which I think uses floats) for 6 seconds with a timestep of 0.1 seconds, yields round-off errors of up to 10%.  Over the same 6 seconds, we can confirm data produced with either double data, or with double double data (Igor).
+*
+* \todo Update Introduction.txt document for applications and libraries.  
+* \todo Include documentation for how to properly build an application.
+* \todo Build app for parsing data files and building "weight" network in different ways.
+* \todo Add "grafting" optimization algorithm (new model). 
+* \todo Add pruning application. 
+* \todo Implement Alopex-B algorithm.
+*
+*/

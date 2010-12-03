@@ -1,0 +1,8 @@
+
+This is just a mapping of what uses what sig file.  
+
+10_18_2003:
+- N2_e0_50fwd.txt  N2_e0_50fwdsig.txt 
+- N2_e50_0fwd.txt  N2_e50_0fwdsig.txt 
+- N2_e150_50fwd.txt  N2_e150_50fwdsig.txt 
+

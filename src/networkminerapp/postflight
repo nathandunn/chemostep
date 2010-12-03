@@ -1,0 +1,13 @@
+#!/bin/bash
+#!/bin/sh
+QTINSTALL=/sw/lib/qt3mac/lib
+mkdir -p $QTINSTALL
+mv $2/libs/libqt-mt.3.dylib  $QTINSTALL
+rm -rf $2/libs
+rm -rf $2/scripts
+#rm -rf $2/NetMiner
+#mkdir -p $2/NetMiner
+#mv $2/NETDATA $2/NetMiner
+#mv $2/NetMiner.app $2/NetMiner
+
+# (C) 2006 by Nathan Dunn, <ndunn@mac.com>

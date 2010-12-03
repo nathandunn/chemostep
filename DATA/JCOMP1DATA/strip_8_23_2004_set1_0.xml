@@ -1,0 +1,60 @@
+<network size="5" >
+	<note>
+	</note>
+<node nodeNumber="0">
+  <bias value="12.264" mask="0"/>
+  <tau value="3.03091" mask="0"/>
+  <vmem value="0.5"/>
+  <vinit value="0.5"/>
+</node>
+<node nodeNumber="1">
+  <bias value="33.4016" mask="0"/>
+  <tau value="14.3916" mask="0"/>
+  <vmem value="0.5"/>
+  <vinit value="0.5"/>
+</node>
+<node nodeNumber="2">
+  <bias value="16.5364" mask="0"/>
+  <tau value="33.1611" mask="0"/>
+  <vmem value="0.5"/>
+  <vinit value="0.5"/>
+</node>
+<node nodeNumber="3">
+  <bias value="7.47907" mask="0"/>
+  <tau value="9.05055" mask="0"/>
+  <vmem value="0.5"/>
+  <vinit value="0.5"/>
+</node>
+<node nodeNumber="4">
+  <bias value="5.30474" mask="0"/>
+  <tau value="4.6363" mask="0"/>
+  <vmem value="0.5"/>
+  <vinit value="0.5"/>
+</node>
+<weight nodefrom="0" nodeto="0" weight="-3.52585" mask="0"/>
+<weight nodefrom="0" nodeto="1" weight="-16.1993" mask="0"/>
+<weight nodefrom="0" nodeto="2" weight="-12.9608" mask="0"/>
+<weight nodefrom="0" nodeto="3" weight="13.8169" mask="0"/>
+<weight nodefrom="0" nodeto="4" weight="35.5454" mask="0"/>
+<weight nodefrom="1" nodeto="0" weight="-5.63255" mask="0"/>
+<weight nodefrom="1" nodeto="1" weight="-16.937" mask="0"/>
+<weight nodefrom="1" nodeto="2" weight="6.22352" mask="0"/>
+<weight nodefrom="1" nodeto="3" weight="-19.6267" mask="0"/>
+<weight nodefrom="1" nodeto="4" weight="-17.7902" mask="0"/>
+<weight nodefrom="2" nodeto="0" weight="12.6417" mask="0"/>
+<weight nodefrom="2" nodeto="1" weight="0.325096" mask="0"/>
+<weight nodefrom="2" nodeto="2" weight="6.57804" mask="0"/>
+<weight nodefrom="2" nodeto="3" weight="-8.74861" mask="0"/>
+<weight nodefrom="2" nodeto="4" weight="-5.32429" mask="0"/>
+<weight nodefrom="3" nodeto="0" weight="-21.9279" mask="0"/>
+<weight nodefrom="3" nodeto="1" weight="-26.8219" mask="0"/>
+<weight nodefrom="3" nodeto="2" weight="-18.5442" mask="0"/>
+<weight nodefrom="3" nodeto="3" weight="2.68123" mask="0"/>
+<weight nodefrom="3" nodeto="4" weight="2.97984" mask="0"/>
+<weight nodefrom="4" nodeto="0" weight="0" mask="0"/>
+<weight nodefrom="4" nodeto="1" weight="0" mask="0"/>
+<weight nodefrom="4" nodeto="2" weight="0" mask="0"/>
+<weight nodefrom="4" nodeto="3" weight="0" mask="0"/>
+<weight nodefrom="4" nodeto="4" weight="-14.0489" mask="0"/>
+</network>
+

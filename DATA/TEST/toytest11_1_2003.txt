@@ -1,0 +1,299 @@
+
+
+
+
+
+
+
+
+
+BlitzNet constructor: mNeurons is: 0x80e1470
+toy created
+BlitzNet constructor: mNeurons is: 0x80e1f10
+constructing BlitzEulerNetEvaluator
+evaluator created
+BlitzNet constructor: mNeurons is: 0x80dfa18
+BlitzNet constructor: mNeurons is: 0x80dfa18
+toy created
+BlitzNet constructor: mNeurons is: 0x80e04b8
+constructing BlitzEulerNetEvaluator
+toy created
+BlitzNet constructor: mNeurons is: 0x80e04b8
+constructing BlitzEulerNetEvaluator
+BlitzNet constructor: mNeurons is: 0x80dfa18
+toy created
+BlitzNet constructor: mNeurons is: 0x80e04b8
+constructing BlitzEulerNetEvaluator
+evaluator created
+BlitzNet constructor: mNeurons is: 0x80e0a08
+
+evaluator created
+annealer created
+constrctur init network blitznet for blitznet mNeurons: 0
+BlitzNet constructor: mNeurons is: 0x80e0a08
+
+newSize: 4
+A setting null net values
+constrctur init network blitznet for blitznet mNeurons: 0
+newSize: 4
+A setting null net values
+in annealer myid: 2
+in annealer nprocs: 10
+annealer created
+constrctur init network blitznet for blitznet mNeurons: 0
+newSize: 4
+A setting null net values
+constrctur init network blitznet for blitznet mNeurons: 0
+newSize: 4
+A setting null net values
+in annealer myid: 3
+in annealer nprocs: 10
+evaluator created
+BlitzNet constructor: mNeurons is: 0x80e0a08
+
+annealer created
+constrctur init network blitznet for blitznet mNeurons: 0
+newSize: 4
+A setting null net values
+constrctur init network blitznet for blitznet mNeurons: 0
+newSize: 4
+A setting null net values
+in annealer myid: 5
+in annealer nprocs: 10
+toyNet->eval(): 0.0597884
+
+
+
+toyNet->evalNorml(): 9.96474e-05
+rendering in BlitzReportNetRenderer
+toyNet->render()  neurons:  4
+  value:   0.0597884
+  weights: 4 x 4
+[         0        -4        -1         1 
+          0         0         0         1 
+          0         0         0         1 
+          0         0         0         0 ]
+
+  bias:    4
+ [      -0.5         2       0.5      -1.5  ]
+  tau:     4
+ [       0.5        30         2         5  ]
+  vmem:    4
+ [         0         0         0         0  ]
+  init vmem:    4
+ [       0.5       0.5       0.5       0.5  ]
+  weight mask:    4 x 4
+[         1         1         1         1 
+          1         1         1         1 
+          1         1         1         1 
+          1         1         1         1 ]
+
+  biasMask:    4
+ [         1         1         1         1  ]
+  tauMask:     4
+ [         1         1         1         1  ]
+
+BlitzNet constructor: mNeurons is: 0x8130638
+
+annealer created
+constrctur init network blitznet for blitznet mNeurons: 0
+newSize: 4
+A setting null net values
+constrctur init network blitznet for blitznet mNeurons: 0
+newSize: 4
+A setting null net values
+in annealer myid: 0
+in annealer nprocs: 10
+
+BlitzNet constructor: mNeurons is: 0x80dfa18
+toy created
+BlitzNet constructor: mNeurons is: 0x80e04b8
+constructing BlitzEulerNetEvaluator
+evaluator created
+BlitzNet constructor: mNeurons is: 0x80e0a08
+
+annealer created
+constrctur init network blitznet for blitznet mNeurons: 0
+newSize: 4
+A setting null net values
+constrctur init network blitznet for blitznet mNeurons: 0
+newSize: 4
+A setting null net values
+in annealer myid: 4
+in annealer nprocs: 10
+BlitzNet constructor: mNeurons is: 0x80dfa18
+toy created
+BlitzNet constructor: mNeurons is: 0x80e04b8
+constructing BlitzEulerNetEvaluator
+BlitzNet constructor: mNeurons is: 0x80e0a58
+toy created
+BlitzNet constructor: mNeurons is: 0x80e14f8
+constructing BlitzEulerNetEvaluator
+evaluator created
+BlitzNet constructor: mNeurons is: 0x80e1a48
+
+annealer created
+constrctur init network blitznet for blitznet mNeurons: 0
+newSize: 4
+A setting null net values
+constrctur init network blitznet for blitznet mNeurons: 0
+newSize: 4
+A setting null net values
+BlitzNet constructor: mNeurons is: 0x80dfa18
+in annealer myid: 1
+in annealer nprocs: 10
+toy created
+BlitzNet constructor: mNeurons is: 0x80e04b8
+constructing BlitzEulerNetEvaluator
+evaluator created
+BlitzNet constructor: mNeurons is: 0x80dfa18
+BlitzNet constructor: mNeurons is: 0x80e0a08
+
+annealer created
+constrctur init network blitznet for blitznet mNeurons: 0
+newSize: 4
+A setting null net values
+constrctur init network blitznet for blitznet mNeurons: 0
+newSize: 4
+A setting null net values
+in annealer myid: 7
+toy created
+BlitzNet constructor: mNeurons is: 0x80e04b8
+constructing BlitzEulerNetEvaluator
+in annealer nprocs: 10
+BlitzNet constructor: mNeurons is: 0x80dfa18
+toy created
+BlitzNet constructor: mNeurons is: 0x80e04b8
+constructing BlitzEulerNetEvaluator
+evaluator created
+BlitzNet constructor: mNeurons is: 0x80e0a08
+
+annealer created
+constrctur init network blitznet for blitznet mNeurons: 0
+newSize: 4
+A setting null net values
+constrctur init network blitznet for blitznet mNeurons: 0
+newSize: 4
+A setting null net values
+in annealer myid: 6
+in annealer nprocs: 10
+evaluator created
+BlitzNet constructor: mNeurons is: 0x80e0a08
+
+annealer created
+constrctur init network blitznet for blitznet mNeurons: 0
+evaluator created
+newSize: 4
+A setting null net values
+BlitzNet constructor: mNeurons is: 0x80e0a08
+constrctur init network blitznet for blitznet mNeurons: 0
+newSize: 4
+A setting null net values
+in annealer myid: 8
+
+in annealer nprocs: 10
+annealer created
+constrctur init network blitznet for blitznet mNeurons: 0
+newSize: 4
+A setting null net values
+constrctur init network blitznet for blitznet mNeurons: 0
+newSize: 4
+A setting null net values
+in annealer myid: 9
+in annealer nprocs: 10
+
+
+
+
+
+
+best after reduction: 2 value: 0.142802
+best at temp: 1 bestError: 0.142802
+best after reduction: 4 value: 0.140683
+best at temp: 0.932291 bestError: 0.140683
+best after reduction: 5 value: 0.138167
+best at temp: 0.866958 bestError: 0.138167
+best after reduction: 2 value: 0.129793
+best at temp: 0.804001 bestError: 0.129793
+best after reduction: 8 value: 0.126495
+best at temp: 0.74342 bestError: 0.126495
+best after reduction: 0 value: 0.126495
+best at temp: 0.685214 bestError: 0.126495
+best after reduction: 0 value: 0.126495
+best at temp: 0.629384 bestError: 0.126495
+best after reduction: 0 value: 0.126495
+best at temp: 0.57593 bestError: 0.126495
+best after reduction: 3 value: 0.126465
+best at temp: 0.524851 bestError: 0.126465
+best after reduction: 0 value: 0.126465
+best at temp: 0.476149 bestError: 0.126465
+best after reduction: 0 value: 0.126465
+best at temp: 0.429822 bestError: 0.126465
+best after reduction: 0 value: 0.126465
+best at temp: 0.38587 bestError: 0.126465
+best after reduction: 0 value: 0.126465
+best at temp: 0.344295 bestError: 0.126465
+best after reduction: 8 value: 0.126108
+best at temp: 0.305095 bestError: 0.126108
+best after reduction: 6 value: 0.125883
+best at temp: 0.268271 bestError: 0.125883
+best after reduction: 5 value: 0.125714
+best at temp: 0.233823 bestError: 0.125714
+best after reduction: 0 value: 0.125714
+best at temp: 0.20175 bestError: 0.125714
+best after reduction: 3 value: 0.125433
+best at temp: 0.172054 bestError: 0.125433
+best after reduction: 0 value: 0.125433
+best at temp: 0.144732 bestError: 0.125433
+best after reduction: 4 value: 0.125371
+best at temp: 0.119787 bestError: 0.125371
+best after reduction: 3 value: 0.125338
+best at temp: 0.0972176 bestError: 0.125338
+best after reduction: 9 value: 0.125056
+best at temp: 0.0770238 bestError: 0.125056
+best after reduction: 0 value: 0.125056
+best at temp: 0.0592057 bestError: 0.125056
+best after reduction: 9 value: 0.125035
+best at temp: 0.0437634 bestError: 0.125035
+best after reduction: 1 value: 0.124986
+best at temp: 0.0306968 bestError: 0.124986
+best after reduction: 6 value: 0.124978
+best at temp: 0.0200059 bestError: 0.124978
+best after reduction: 0 value: 0.124978
+best at temp: 0.0116908 bestError: 0.124978
+best after reduction: 0 value: 0.124978
+best at temp: 0.00575149 bestError: 0.124978
+best after reduction: 1 value: 0.124974
+best at temp: 0.00218787 bestError: 0.124974
+best after reduction: 6 value: 0.12497
+best at temp: 0.001 bestError: 0.12497
+greatNet->eval(): 0.12497
+greatNet->evalNorml(): 0.000208283
+rendering in BlitzReportNetRenderer
+greatNet->():   neurons:  4
+  value:   0.12497
+  weights: 4 x 4
+[ 7.06027e-05   2.46437  -2.61314 -0.253137 
+    -1.7017 -0.666663   4.93436  0.760383 
+   -1.09759  -4.76628  -1.62003   3.44308 
+   -2.18883 -0.709485  -3.45601   -4.4212 ]
+
+  bias:    4
+ [ -0.158398  -3.10966 -0.117006   1.99406  ]
+  tau:     4
+ [    1.2739  -5.04332  -2.27521  -1.00083  ]
+  vmem:    4
+ [         0         0         0         0  ]
+  init vmem:    4
+ [         0         0         0         0  ]
+  weight mask:    4 x 4
+[         1         1         1         1 
+          1         1         1         1 
+          1         1         1         1 
+          1         1         1         1 ]
+
+  biasMask:    4
+ [         1         1         1         1  ]
+  tauMask:     4
+ [         1         1         1         1  ]
+

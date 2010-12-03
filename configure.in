@@ -1,0 +1,174 @@
+dnl -*- autoconf -*-
+dnl (C) 2003 by Nathan Dunn, <ndunn@mac.com>
+
+AC_INIT
+AC_CANONICAL_HOST
+AM_INIT_AUTOMAKE(chemostep,1.0)
+AM_MAINTAINER_MODE
+
+########################################
+# Checks for compilers.
+########################################
+
+AC_LANG(C++)
+CFLAGS=${CFLAGS:=}
+AC_PROG_CC
+AC_PROG_GCC_TRADITIONAL
+AC_LANG_CPLUSPLUS
+CXXFLAGS=${CXXFLAGS:=}
+AC_PROG_CXX
+
+########################################
+# Checks for library.
+########################################
+
+AC_PROG_INSTALL
+AC_CHECK_PROG(AUTOCONF,autoconf,autoconf,true)
+AC_PROG_RANLIB
+
+
+########################################
+## Checking for host
+########################################
+
+case "${host}" in
+        *-pc-linux*)     platform=X86LINUX ;;
+        powerpc64-*-linux*)     platform=POWER64LINUX ;;
+dnl         *-*-freebsd*)   platform=FREEBSD ;;
+dnl         *-*-solaris*)   platform=SOLARIS ;;
+        *-apple-*)    platform=MACOSX
+                        INSTALL_PROGRAM="cp -fp"
+                        INSTALL_DATA="cp -fp"
+                        ;;
+dnl         *-*-cygwin*)    platform=CYGWIN ;;
+        *)              platform=UNKNOWN ;;
+esac
+AC_SUBST(platform)
+
+echo "host:  ${host}"
+
+
+AM_CONDITIONAL(MACOSX, test "$platform" = MACOSX ) 
+AM_CONDITIONAL(X86LINUX, test "$platform" = X86LINUX )
+AM_CONDITIONAL(POWER64LINUX, test "$platform" = POWER64LINUX)
+dnl If its Mac, then forget the X11 build for now.
+dnl AM_CONDITIONAL(QTMAC, test "$platform" = MACOSX )
+
+
+
+if test "$platform" = MACOSX ; then 
+    CXXFLAGS="-g -O2 -arch ppc -funroll-loops" 
+elif test "$platform" = X86LINUX; then 
+    CXXFLAGS="-g -O3 -mcpu=i686 -funroll-loops" 
+elif test "$platform" = POWER64LINUX; then
+    CXXFLAGS="-g -O3 -mpowerpc -mtune=powerpc -funroll-loops"
+dnl     CXXFLAGS="-g -O2 -march=pwr4 -mtune=pwr4"
+dnl     CXXFLAGS="-g -O3 -mpowerpc -mtune=powerpc -funroll-loops"
+    CXXFLAGS="-g -O3 -mcpu=powerpc -mtune=powerpc -funroll-loops" 
+fi
+
+
+
+########################################
+## Check for Blitz 
+########################################
+AC_MSG_CHECKING([for Blitz ])
+AC_CHECK_FILE(/usr/local/include/blitz/array.h,,AC_MSG_ERROR(/usr/local/include/blitz/array.h not found))
+
+
+
+########################################
+## Check for qt
+########################################
+# QTDIR=/sw/share/qt
+# QTDIR=/sw/lib/qt3mac
+AC_MSG_CHECKING([ for qt ])
+AM_CONDITIONAL(SETTRUE,true)
+if  test "$platform" = MACOSX; then
+  AC_CHECK_FILE(${QTDIR}/include/qobject.h,AM_CONDITIONAL(DOX11,false),AM_CONDITIONAL(DOX11,true))
+  AC_MSG_NOTICE([Setting DOX11])
+else
+  AC_CHECK_FILE(${QTDIR}/include/qt/qobject.h,AM_CONDITIONAL(DOX11,true),AC_MSG_ERROR(${QTDIR}/include/qt/qobject.h not found))
+fi
+
+
+
+
+
+########################################
+## Define qt multithreading
+########################################
+AC_MSG_NOTICE([adding qt multithreading])
+AC_DEFINE(QT_THREAD_SUPPORT)
+
+
+########################################
+## Check for MPI
+########################################
+
+
+dnl AM_CONDITIONAL(DOMPI, test -e ${MPICH}/include/mpi.h )
+if test "$enable_mpi" = no ; then 
+AM_CONDITIONAL(DOMPI, false )
+AC_MSG_NOTICE(MPI disabled)
+else
+AC_CHECK_FILE(${MPICH}/include/mpi.h,AM_CONDITIONAL(DOMPI,true),AM_CONDITIONAL(DOMPI,false))
+fi
+
+########################################
+## Check for MPI
+########################################
+
+AC_MSG_NOTICE([MPI ])
+AC_ARG_ENABLE( mpi,         --disable-mpi   disables mpi flags )
+
+dnl AM_CONDITIONAL(DOMPI, test -e ${MPICH}/include/mpi.h )
+if test "$enable_mpi" = no ; then 
+AM_CONDITIONAL(DOMPI, false )
+AC_MSG_NOTICE(MPI disabled)
+else
+AC_CHECK_FILE(${MPICH}/include/mpi.h,AM_CONDITIONAL(DOMPI,true),AM_CONDITIONAL(DOMPI,false))
+fi
+
+
+
+
+
+########################################
+# Build Makefiles
+########################################
+
+
+AC_OUTPUT(
+    Makefile \
+    src/Makefile \
+    src/tinyxml/Makefile \
+    src/autogui/Makefile \
+    src/chemostep/Makefile \
+    src/tinyautogui/Makefile \
+    src/qtautogui/Makefile \
+    src/blitzchemostep/Makefile \
+    src/gaapps/Makefile \
+dnl     src/testclasses/Makefile \
+dnl     src/autotestapps/Makefile \
+dnl     src/chemotestapps/Makefile \
+dnl     src/guiapps/Makefile \
+dnl     src/gnuplot_i/Makefile \
+    src/tinyblitzchemostep/Makefile \
+dnl     src/alopexapp/Makefile \
+dnl     src/alopextest/Makefile \
+		src/netparserapp/Makefile \
+    src/baseapps/Makefile \
+    src/networkminerapp/Makefile \
+		src/wormsim/Makefile \
+		src/netanalysis/Makefile \
+dnl     src/evoapp/Makefile \
+		src/evoannealapp/Makefile \
+dnl     src/pruneapp/Makefile \
+		src/netanalysisapp/Makefile \
+dnl     src/evoannealcheckapp/Makefile \
+    src/utils/Makefile
+    )
+
+
+

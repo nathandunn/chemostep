@@ -1,0 +1,524 @@
+<network size="20" timeStep="1">
+<errorModel type="AUTODUALLIMIT" lowThresh="0.417976" highThresh="0.418182"  />
+<evalModel type="ONENODE" numOutputs="1"  />
+<node nodeNumber="0">
+  <bias value="0" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="1">
+  <bias value="0" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="2">
+  <bias value="0" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="3">
+  <bias value="0" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="4">
+  <bias value="0" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="5">
+  <bias value="0" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="6">
+  <bias value="0" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="7">
+  <bias value="0" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="8">
+  <bias value="0" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="9">
+  <bias value="0" mask="0"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="10">
+  <bias value="0" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="11">
+  <bias value="0" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="12">
+  <bias value="0" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="13">
+  <bias value="0" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="14">
+  <bias value="0" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="15">
+  <bias value="0" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="16">
+  <bias value="0" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="17">
+  <bias value="0" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="18">
+  <bias value="0" mask="1"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<node nodeNumber="19">
+  <bias value="0" mask="0"/>
+  <tau value="5" mask="1"/>
+  <vmem value="0.5" mask="1"/>
+  <vinit value="0.5" mask="1"/>
+</node>
+<weight  nodefrom="0" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="0" nodeto="1" weight="0" mask="1"/>
+<weight  nodefrom="0" nodeto="2" weight="0" mask="1"/>
+<weight  nodefrom="0" nodeto="3" weight="0" mask="1"/>
+<weight  nodefrom="0" nodeto="4" weight="0" mask="1"/>
+<weight  nodefrom="0" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="0" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="0" nodeto="7" weight="0" mask="1"/>
+<weight  nodefrom="0" nodeto="8" weight="0" mask="1"/>
+<weight  nodefrom="0" nodeto="9" weight="0" mask="1"/>
+<weight  nodefrom="0" nodeto="10" weight="0" mask="1"/>
+<weight  nodefrom="0" nodeto="11" weight="0" mask="1"/>
+<weight  nodefrom="0" nodeto="12" weight="0" mask="1"/>
+<weight  nodefrom="0" nodeto="13" weight="0" mask="1"/>
+<weight  nodefrom="0" nodeto="14" weight="0" mask="1"/>
+<weight  nodefrom="0" nodeto="15" weight="0" mask="1"/>
+<weight  nodefrom="0" nodeto="16" weight="0" mask="1"/>
+<weight  nodefrom="0" nodeto="17" weight="0" mask="1"/>
+<weight  nodefrom="0" nodeto="18" weight="0" mask="1"/>
+<weight  nodefrom="0" nodeto="19" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="1" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="2" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="3" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="4" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="7" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="8" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="9" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="10" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="11" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="12" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="13" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="14" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="15" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="16" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="17" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="18" weight="0" mask="1"/>
+<weight  nodefrom="1" nodeto="19" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="1" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="2" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="3" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="4" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="7" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="8" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="9" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="10" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="11" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="12" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="13" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="14" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="15" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="16" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="17" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="18" weight="0" mask="1"/>
+<weight  nodefrom="2" nodeto="19" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="1" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="2" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="3" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="4" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="7" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="8" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="9" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="10" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="11" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="12" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="13" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="14" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="15" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="16" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="17" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="18" weight="0" mask="1"/>
+<weight  nodefrom="3" nodeto="19" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="1" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="2" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="3" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="4" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="7" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="8" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="9" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="10" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="11" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="12" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="13" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="14" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="15" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="16" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="17" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="18" weight="0" mask="1"/>
+<weight  nodefrom="4" nodeto="19" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="1" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="2" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="3" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="4" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="7" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="8" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="9" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="10" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="11" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="12" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="13" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="14" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="15" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="16" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="17" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="18" weight="0" mask="1"/>
+<weight  nodefrom="5" nodeto="19" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="1" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="2" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="3" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="4" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="7" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="8" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="9" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="10" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="11" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="12" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="13" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="14" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="15" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="16" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="17" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="18" weight="0" mask="1"/>
+<weight  nodefrom="6" nodeto="19" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="1" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="2" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="3" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="4" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="7" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="8" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="9" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="10" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="11" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="12" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="13" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="14" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="15" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="16" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="17" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="18" weight="0" mask="1"/>
+<weight  nodefrom="7" nodeto="19" weight="0" mask="1"/>
+<weight  nodefrom="8" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="8" nodeto="1" weight="0" mask="1"/>
+<weight  nodefrom="8" nodeto="2" weight="0" mask="1"/>
+<weight  nodefrom="8" nodeto="3" weight="0" mask="1"/>
+<weight  nodefrom="8" nodeto="4" weight="0" mask="1"/>
+<weight  nodefrom="8" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="8" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="8" nodeto="7" weight="0" mask="1"/>
+<weight  nodefrom="8" nodeto="8" weight="0" mask="1"/>
+<weight  nodefrom="8" nodeto="9" weight="0" mask="1"/>
+<weight  nodefrom="8" nodeto="10" weight="0" mask="1"/>
+<weight  nodefrom="8" nodeto="11" weight="0" mask="1"/>
+<weight  nodefrom="8" nodeto="12" weight="0" mask="1"/>
+<weight  nodefrom="8" nodeto="13" weight="0" mask="1"/>
+<weight  nodefrom="8" nodeto="14" weight="0" mask="1"/>
+<weight  nodefrom="8" nodeto="15" weight="0" mask="1"/>
+<weight  nodefrom="8" nodeto="16" weight="0" mask="1"/>
+<weight  nodefrom="8" nodeto="17" weight="0" mask="1"/>
+<weight  nodefrom="8" nodeto="18" weight="0" mask="1"/>
+<weight  nodefrom="8" nodeto="19" weight="0" mask="1"/>
+<weight  nodefrom="9" nodeto="0" weight="0" mask="0"/>
+<weight  nodefrom="9" nodeto="1" weight="0" mask="0"/>
+<weight  nodefrom="9" nodeto="2" weight="0" mask="0"/>
+<weight  nodefrom="9" nodeto="3" weight="0" mask="0"/>
+<weight  nodefrom="9" nodeto="4" weight="0" mask="0"/>
+<weight  nodefrom="9" nodeto="5" weight="0" mask="0"/>
+<weight  nodefrom="9" nodeto="6" weight="0" mask="0"/>
+<weight  nodefrom="9" nodeto="7" weight="0" mask="0"/>
+<weight  nodefrom="9" nodeto="8" weight="0" mask="0"/>
+<weight  nodefrom="9" nodeto="9" weight="0" mask="1"/>
+<weight  nodefrom="9" nodeto="10" weight="0" mask="0"/>
+<weight  nodefrom="9" nodeto="11" weight="0" mask="0"/>
+<weight  nodefrom="9" nodeto="12" weight="0" mask="0"/>
+<weight  nodefrom="9" nodeto="13" weight="0" mask="0"/>
+<weight  nodefrom="9" nodeto="14" weight="0" mask="0"/>
+<weight  nodefrom="9" nodeto="15" weight="0" mask="0"/>
+<weight  nodefrom="9" nodeto="16" weight="0" mask="0"/>
+<weight  nodefrom="9" nodeto="17" weight="0" mask="0"/>
+<weight  nodefrom="9" nodeto="18" weight="0" mask="0"/>
+<weight  nodefrom="9" nodeto="19" weight="0" mask="1"/>
+<weight  nodefrom="10" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="10" nodeto="1" weight="0" mask="1"/>
+<weight  nodefrom="10" nodeto="2" weight="0" mask="1"/>
+<weight  nodefrom="10" nodeto="3" weight="0" mask="1"/>
+<weight  nodefrom="10" nodeto="4" weight="0" mask="1"/>
+<weight  nodefrom="10" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="10" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="10" nodeto="7" weight="0" mask="1"/>
+<weight  nodefrom="10" nodeto="8" weight="0" mask="1"/>
+<weight  nodefrom="10" nodeto="9" weight="0" mask="1"/>
+<weight  nodefrom="10" nodeto="10" weight="0" mask="1"/>
+<weight  nodefrom="10" nodeto="11" weight="0" mask="1"/>
+<weight  nodefrom="10" nodeto="12" weight="0" mask="1"/>
+<weight  nodefrom="10" nodeto="13" weight="0" mask="1"/>
+<weight  nodefrom="10" nodeto="14" weight="0" mask="1"/>
+<weight  nodefrom="10" nodeto="15" weight="0" mask="1"/>
+<weight  nodefrom="10" nodeto="16" weight="0" mask="1"/>
+<weight  nodefrom="10" nodeto="17" weight="0" mask="1"/>
+<weight  nodefrom="10" nodeto="18" weight="0" mask="1"/>
+<weight  nodefrom="10" nodeto="19" weight="0" mask="1"/>
+<weight  nodefrom="11" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="11" nodeto="1" weight="0" mask="1"/>
+<weight  nodefrom="11" nodeto="2" weight="0" mask="1"/>
+<weight  nodefrom="11" nodeto="3" weight="0" mask="1"/>
+<weight  nodefrom="11" nodeto="4" weight="0" mask="1"/>
+<weight  nodefrom="11" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="11" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="11" nodeto="7" weight="0" mask="1"/>
+<weight  nodefrom="11" nodeto="8" weight="0" mask="1"/>
+<weight  nodefrom="11" nodeto="9" weight="0" mask="1"/>
+<weight  nodefrom="11" nodeto="10" weight="0" mask="1"/>
+<weight  nodefrom="11" nodeto="11" weight="0" mask="1"/>
+<weight  nodefrom="11" nodeto="12" weight="0" mask="1"/>
+<weight  nodefrom="11" nodeto="13" weight="0" mask="1"/>
+<weight  nodefrom="11" nodeto="14" weight="0" mask="1"/>
+<weight  nodefrom="11" nodeto="15" weight="0" mask="1"/>
+<weight  nodefrom="11" nodeto="16" weight="0" mask="1"/>
+<weight  nodefrom="11" nodeto="17" weight="0" mask="1"/>
+<weight  nodefrom="11" nodeto="18" weight="0" mask="1"/>
+<weight  nodefrom="11" nodeto="19" weight="0" mask="1"/>
+<weight  nodefrom="12" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="12" nodeto="1" weight="0" mask="1"/>
+<weight  nodefrom="12" nodeto="2" weight="0" mask="1"/>
+<weight  nodefrom="12" nodeto="3" weight="0" mask="1"/>
+<weight  nodefrom="12" nodeto="4" weight="0" mask="1"/>
+<weight  nodefrom="12" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="12" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="12" nodeto="7" weight="0" mask="1"/>
+<weight  nodefrom="12" nodeto="8" weight="0" mask="1"/>
+<weight  nodefrom="12" nodeto="9" weight="0" mask="1"/>
+<weight  nodefrom="12" nodeto="10" weight="0" mask="1"/>
+<weight  nodefrom="12" nodeto="11" weight="0" mask="1"/>
+<weight  nodefrom="12" nodeto="12" weight="0" mask="1"/>
+<weight  nodefrom="12" nodeto="13" weight="0" mask="1"/>
+<weight  nodefrom="12" nodeto="14" weight="0" mask="1"/>
+<weight  nodefrom="12" nodeto="15" weight="0" mask="1"/>
+<weight  nodefrom="12" nodeto="16" weight="0" mask="1"/>
+<weight  nodefrom="12" nodeto="17" weight="0" mask="1"/>
+<weight  nodefrom="12" nodeto="18" weight="0" mask="1"/>
+<weight  nodefrom="12" nodeto="19" weight="0" mask="1"/>
+<weight  nodefrom="13" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="13" nodeto="1" weight="0" mask="1"/>
+<weight  nodefrom="13" nodeto="2" weight="0" mask="1"/>
+<weight  nodefrom="13" nodeto="3" weight="0" mask="1"/>
+<weight  nodefrom="13" nodeto="4" weight="0" mask="1"/>
+<weight  nodefrom="13" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="13" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="13" nodeto="7" weight="0" mask="1"/>
+<weight  nodefrom="13" nodeto="8" weight="0" mask="1"/>
+<weight  nodefrom="13" nodeto="9" weight="0" mask="1"/>
+<weight  nodefrom="13" nodeto="10" weight="0" mask="1"/>
+<weight  nodefrom="13" nodeto="11" weight="0" mask="1"/>
+<weight  nodefrom="13" nodeto="12" weight="0" mask="1"/>
+<weight  nodefrom="13" nodeto="13" weight="0" mask="1"/>
+<weight  nodefrom="13" nodeto="14" weight="0" mask="1"/>
+<weight  nodefrom="13" nodeto="15" weight="0" mask="1"/>
+<weight  nodefrom="13" nodeto="16" weight="0" mask="1"/>
+<weight  nodefrom="13" nodeto="17" weight="0" mask="1"/>
+<weight  nodefrom="13" nodeto="18" weight="0" mask="1"/>
+<weight  nodefrom="13" nodeto="19" weight="0" mask="1"/>
+<weight  nodefrom="14" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="14" nodeto="1" weight="0" mask="1"/>
+<weight  nodefrom="14" nodeto="2" weight="0" mask="1"/>
+<weight  nodefrom="14" nodeto="3" weight="0" mask="1"/>
+<weight  nodefrom="14" nodeto="4" weight="0" mask="1"/>
+<weight  nodefrom="14" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="14" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="14" nodeto="7" weight="0" mask="1"/>
+<weight  nodefrom="14" nodeto="8" weight="0" mask="1"/>
+<weight  nodefrom="14" nodeto="9" weight="0" mask="1"/>
+<weight  nodefrom="14" nodeto="10" weight="0" mask="1"/>
+<weight  nodefrom="14" nodeto="11" weight="0" mask="1"/>
+<weight  nodefrom="14" nodeto="12" weight="0" mask="1"/>
+<weight  nodefrom="14" nodeto="13" weight="0" mask="1"/>
+<weight  nodefrom="14" nodeto="14" weight="0" mask="1"/>
+<weight  nodefrom="14" nodeto="15" weight="0" mask="1"/>
+<weight  nodefrom="14" nodeto="16" weight="0" mask="1"/>
+<weight  nodefrom="14" nodeto="17" weight="0" mask="1"/>
+<weight  nodefrom="14" nodeto="18" weight="0" mask="1"/>
+<weight  nodefrom="14" nodeto="19" weight="0" mask="1"/>
+<weight  nodefrom="15" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="15" nodeto="1" weight="0" mask="1"/>
+<weight  nodefrom="15" nodeto="2" weight="0" mask="1"/>
+<weight  nodefrom="15" nodeto="3" weight="0" mask="1"/>
+<weight  nodefrom="15" nodeto="4" weight="0" mask="1"/>
+<weight  nodefrom="15" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="15" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="15" nodeto="7" weight="0" mask="1"/>
+<weight  nodefrom="15" nodeto="8" weight="0" mask="1"/>
+<weight  nodefrom="15" nodeto="9" weight="0" mask="1"/>
+<weight  nodefrom="15" nodeto="10" weight="0" mask="1"/>
+<weight  nodefrom="15" nodeto="11" weight="0" mask="1"/>
+<weight  nodefrom="15" nodeto="12" weight="0" mask="1"/>
+<weight  nodefrom="15" nodeto="13" weight="0" mask="1"/>
+<weight  nodefrom="15" nodeto="14" weight="0" mask="1"/>
+<weight  nodefrom="15" nodeto="15" weight="0" mask="1"/>
+<weight  nodefrom="15" nodeto="16" weight="0" mask="1"/>
+<weight  nodefrom="15" nodeto="17" weight="0" mask="1"/>
+<weight  nodefrom="15" nodeto="18" weight="0" mask="1"/>
+<weight  nodefrom="15" nodeto="19" weight="0" mask="1"/>
+<weight  nodefrom="16" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="16" nodeto="1" weight="0" mask="1"/>
+<weight  nodefrom="16" nodeto="2" weight="0" mask="1"/>
+<weight  nodefrom="16" nodeto="3" weight="0" mask="1"/>
+<weight  nodefrom="16" nodeto="4" weight="0" mask="1"/>
+<weight  nodefrom="16" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="16" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="16" nodeto="7" weight="0" mask="1"/>
+<weight  nodefrom="16" nodeto="8" weight="0" mask="1"/>
+<weight  nodefrom="16" nodeto="9" weight="0" mask="1"/>
+<weight  nodefrom="16" nodeto="10" weight="0" mask="1"/>
+<weight  nodefrom="16" nodeto="11" weight="0" mask="1"/>
+<weight  nodefrom="16" nodeto="12" weight="0" mask="1"/>
+<weight  nodefrom="16" nodeto="13" weight="0" mask="1"/>
+<weight  nodefrom="16" nodeto="14" weight="0" mask="1"/>
+<weight  nodefrom="16" nodeto="15" weight="0" mask="1"/>
+<weight  nodefrom="16" nodeto="16" weight="0" mask="1"/>
+<weight  nodefrom="16" nodeto="17" weight="0" mask="1"/>
+<weight  nodefrom="16" nodeto="18" weight="0" mask="1"/>
+<weight  nodefrom="16" nodeto="19" weight="0" mask="1"/>
+<weight  nodefrom="17" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="17" nodeto="1" weight="0" mask="1"/>
+<weight  nodefrom="17" nodeto="2" weight="0" mask="1"/>
+<weight  nodefrom="17" nodeto="3" weight="0" mask="1"/>
+<weight  nodefrom="17" nodeto="4" weight="0" mask="1"/>
+<weight  nodefrom="17" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="17" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="17" nodeto="7" weight="0" mask="1"/>
+<weight  nodefrom="17" nodeto="8" weight="0" mask="1"/>
+<weight  nodefrom="17" nodeto="9" weight="0" mask="1"/>
+<weight  nodefrom="17" nodeto="10" weight="0" mask="1"/>
+<weight  nodefrom="17" nodeto="11" weight="0" mask="1"/>
+<weight  nodefrom="17" nodeto="12" weight="0" mask="1"/>
+<weight  nodefrom="17" nodeto="13" weight="0" mask="1"/>
+<weight  nodefrom="17" nodeto="14" weight="0" mask="1"/>
+<weight  nodefrom="17" nodeto="15" weight="0" mask="1"/>
+<weight  nodefrom="17" nodeto="16" weight="0" mask="1"/>
+<weight  nodefrom="17" nodeto="17" weight="0" mask="1"/>
+<weight  nodefrom="17" nodeto="18" weight="0" mask="1"/>
+<weight  nodefrom="17" nodeto="19" weight="0" mask="1"/>
+<weight  nodefrom="18" nodeto="0" weight="0" mask="1"/>
+<weight  nodefrom="18" nodeto="1" weight="0" mask="1"/>
+<weight  nodefrom="18" nodeto="2" weight="0" mask="1"/>
+<weight  nodefrom="18" nodeto="3" weight="0" mask="1"/>
+<weight  nodefrom="18" nodeto="4" weight="0" mask="1"/>
+<weight  nodefrom="18" nodeto="5" weight="0" mask="1"/>
+<weight  nodefrom="18" nodeto="6" weight="0" mask="1"/>
+<weight  nodefrom="18" nodeto="7" weight="0" mask="1"/>
+<weight  nodefrom="18" nodeto="8" weight="0" mask="1"/>
+<weight  nodefrom="18" nodeto="9" weight="0" mask="1"/>
+<weight  nodefrom="18" nodeto="10" weight="0" mask="1"/>
+<weight  nodefrom="18" nodeto="11" weight="0" mask="1"/>
+<weight  nodefrom="18" nodeto="12" weight="0" mask="1"/>
+<weight  nodefrom="18" nodeto="13" weight="0" mask="1"/>
+<weight  nodefrom="18" nodeto="14" weight="0" mask="1"/>
+<weight  nodefrom="18" nodeto="15" weight="0" mask="1"/>
+<weight  nodefrom="18" nodeto="16" weight="0" mask="1"/>
+<weight  nodefrom="18" nodeto="17" weight="0" mask="1"/>
+<weight  nodefrom="18" nodeto="18" weight="0" mask="1"/>
+<weight  nodefrom="18" nodeto="19" weight="0" mask="1"/>
+<weight  nodefrom="19" nodeto="0" weight="0" mask="0"/>
+<weight  nodefrom="19" nodeto="1" weight="0" mask="0"/>
+<weight  nodefrom="19" nodeto="2" weight="0" mask="0"/>
+<weight  nodefrom="19" nodeto="3" weight="0" mask="0"/>
+<weight  nodefrom="19" nodeto="4" weight="0" mask="0"/>
+<weight  nodefrom="19" nodeto="5" weight="0" mask="0"/>
+<weight  nodefrom="19" nodeto="6" weight="0" mask="0"/>
+<weight  nodefrom="19" nodeto="7" weight="0" mask="0"/>
+<weight  nodefrom="19" nodeto="8" weight="0" mask="0"/>
+<weight  nodefrom="19" nodeto="9" weight="0" mask="1"/>
+<weight  nodefrom="19" nodeto="10" weight="0" mask="0"/>
+<weight  nodefrom="19" nodeto="11" weight="0" mask="0"/>
+<weight  nodefrom="19" nodeto="12" weight="0" mask="0"/>
+<weight  nodefrom="19" nodeto="13" weight="0" mask="0"/>
+<weight  nodefrom="19" nodeto="14" weight="0" mask="0"/>
+<weight  nodefrom="19" nodeto="15" weight="0" mask="0"/>
+<weight  nodefrom="19" nodeto="16" weight="0" mask="0"/>
+<weight  nodefrom="19" nodeto="17" weight="0" mask="0"/>
+<weight  nodefrom="19" nodeto="18" weight="0" mask="0"/>
+<weight  nodefrom="19" nodeto="19" weight="0" mask="1"/>
+</network>

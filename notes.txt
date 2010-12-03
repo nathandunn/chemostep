@@ -1,0 +1,21 @@
+
+2003_12_12:
+I implemented the auto-correlation tool (AutoWKineticEulerEval) which modified W to meet its needs.  In general, doing an evaluation of this nature takes about twice as long as a normal evaluation, but it is more likely to be guaranteed to get a result.  Definite reason to implement less setback (i.e., < 1000).  We shall see tomorrow.  
+
+Additional ideas to implement/do:
+- implement more nodes during parallel annealing to get right (doing, but using 100 iterations, only)
+- a quicker method for doing the training would be to do an inital scan at a large resolution, and then starting the gradient descent from the lowest point, starting at the next highest resolution.  Still may be problematic,  . . . but . 
+- use a proper gradient-descent algorithm for speed (currentlly takes 20-50 iteartions to get point right)
+- implement learning algorithm (Alopex?) :  Alopex-B: A New, Simpler, but yet Faster Version of the Alopex Training Algorithm (A. Bia) through  ACM
+
+
+Things I need to do:
+- make sure that the binning works (reproduce the same data-set, test2)
+- can I train to the binned-training? (kineticanneal)
+- run the real data
+- ADD ALL OF THIS TO CODE FOR DOXYGEN (for todo-part)
+- UPDATE THIS IN BLOG 
+- add xml reader
+- do gui
+- add on-line writer for networks and other progress  
+

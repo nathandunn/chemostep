@@ -1,0 +1,4 @@
+#include "TestFeeder.hpp"
+#include "TestRandomFeeder.hpp"
+#include "TestFileFeeder.hpp"
+

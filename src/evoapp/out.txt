@@ -1,0 +1,76 @@
+theOption->getName(): 01_network
+theOption: 0x1d17650
+theOption->getRef(): 0x1d02fb4
+theOption->getName(): 02_diameter
+theOption: 0x1d17680
+theOption->getRef(): 0x1d02fdc
+theOption->getName(): 03_hightemp
+theOption: 0x1d176b0
+theOption->getRef(): 0x1d02fcc
+theOption->getName(): 04_lowtemp
+theOption: 0x1d176e0
+theOption->getRef(): 0x1d02fd4
+theOption->getName(): 05_fvelocity
+theOption: 0x1d17710
+theOption->getRef(): 0x1d02fe8
+theOption->getName(): 06_pvelocity
+theOption: 0x1d17740
+theOption->getRef(): 0x1d02ff0
+theOption->getName(): 08_relaxtime
+theOption: 0x1d17770
+theOption->getRef(): 0x1d02fc0
+theOption->getName(): 09_numworms
+theOption: 0x1d177a0
+theOption->getRef(): 0x1d02fc8
+theOption->getName(): 10_numiters
+theOption: 0x1d177d0
+theOption->getRef(): 0x1d02fe4
+mTestType->size(): 3
+theOption->getName(): 12b_type
+theOption: 0x1d17810
+theOption->getRef(): 0x1d03000
+trying to parse: <type name="ANNEALER"  set="TRUE" >
+<description>
+Kinetic annealer.  Produces 1 to N.
+</description>
+<options>
+<option name="01_network" type="FILE_LOAD" value="" label="Network File" /><option name="02_diameter" type="DOUBLE" value="" label="Map Diameter" /><option name="03_hightemp" type="DOUBLE" value="" label="High Temp on Map" /><option name="04_lowtemp" type="DOUBLE" value="" label="Low Temp on Map" /><option name="05_fvelocity" type="DOUBLE" value="" label="Forward Velocity of Worms" /><option name="06_pvelocity" type="DOUBLE" value="" label="Pirouette Velocity of Worms" /><option name="08_relaxtime" type="DOUBLE" value="" label="Time to relax network." /><option name="09_numworms" type="INT" value="" label="Number of Worms" /><option name="10_numiters" type="INT" value="" label="Number of Iterations" /><option name="12b_type" type="LIST_TYPE" value="" label="Test Type" /></options>
+<commands>
+<command name="START_SIMWORM" type=""></command>
+</commands>
+<interfaces></interfaces>
+</type>
+
+theOption->getName(): 01_network
+theOption: 0x1d43d70
+theOption->getRef(): 0
+theOption->getName(): 02_diameter
+theOption: 0x1d43d90
+theOption->getRef(): 0
+theOption->getName(): 03_hightemp
+theOption: 0x1d43dc0
+theOption->getRef(): 0
+theOption->getName(): 04_lowtemp
+theOption: 0x1d43df0
+theOption->getRef(): 0
+theOption->getName(): 05_fvelocity
+theOption: 0x1d43e20
+theOption->getRef(): 0
+theOption->getName(): 06_pvelocity
+theOption: 0x1d43e50
+theOption->getRef(): 0
+theOption->getName(): 08_relaxtime
+theOption: 0x1d43e80
+theOption->getRef(): 0
+theOption->getName(): 09_numworms
+theOption: 0x1d43eb0
+theOption->getRef(): 0
+theOption->getName(): 10_numiters
+theOption: 0x1d43ee0
+theOption->getRef(): 0
+theOption->getName(): 12b_type
+theOption: 0x1d43f10
+theOption->getRef(): 0
+creating new field with valueVector: 0x1d43f10
+creating new field with valueVector with ref: 0
+valueMap: 0

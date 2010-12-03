@@ -1,0 +1,58 @@
+<network size="5" >
+<node nodeNumber="0">
+  <bias value="-0.5" mask="0"/>
+  <tau value="3" mask="0"/>
+  <vmem value="0.5"/>
+  <vinit value="0.5"/>
+</node>
+<node nodeNumber="1">
+  <bias value="-0.5" mask="0"/>
+  <tau value="3" mask="0"/>
+  <vmem value="0.5"/>
+  <vinit value="0.5"/>
+</node>
+<node nodeNumber="2">
+  <bias value="0.0" mask="0"/>
+  <tau value="3" mask="0"/>
+  <vmem value="0.5"/>
+  <vinit value="0.5"/>
+</node>
+<node nodeNumber="3">
+  <bias value="-2" mask="0"/>
+  <tau value="30" mask="0"/>
+  <vmem value="0.5"/>
+  <vinit value="0.5"/>
+</node>
+<node nodeNumber="4">
+  <bias value="0" mask="0"/>
+  <tau value="3" mask="0"/>
+  <vmem value="-0.5"/>
+  <vinit value="0.5"/>
+</node>
+<weight nodefrom="0" nodeto="0" weight="0" mask="0"/>
+<weight nodefrom="0" nodeto="1" weight="0" mask="0"/>
+<weight nodefrom="0" nodeto="2" weight="-1" mask="0"/>
+<weight nodefrom="0" nodeto="3" weight="0" mask="0"/>
+<weight nodefrom="0" nodeto="4" weight="0" mask="0"/>
+<weight nodefrom="1" nodeto="0" weight="0" mask="0"/>
+<weight nodefrom="1" nodeto="1" weight="0" mask="0"/>
+<weight nodefrom="1" nodeto="2" weight="1" mask="0"/>
+<weight nodefrom="1" nodeto="3" weight="0" mask="0"/>
+<weight nodefrom="1" nodeto="4" weight="0" mask="0"/>
+<weight nodefrom="2" nodeto="0" weight="0" mask="0"/>
+<weight nodefrom="2" nodeto="1" weight="0" mask="0"/>
+<weight nodefrom="2" nodeto="2" weight="0" mask="0"/>
+<weight nodefrom="2" nodeto="3" weight="4" mask="0"/>
+<weight nodefrom="2" nodeto="4" weight="50" mask="0"/>
+<weight nodefrom="3" nodeto="0" weight="0" mask="0"/>
+<weight nodefrom="3" nodeto="1" weight="0" mask="0"/>
+<weight nodefrom="3" nodeto="2" weight="0" mask="0"/>
+<weight nodefrom="3" nodeto="3" weight="0" mask="0"/>
+<weight nodefrom="3" nodeto="4" weight="-50" mask="0"/>
+<weight nodefrom="4" nodeto="0" weight="0" mask="0"/>
+<weight nodefrom="4" nodeto="1" weight="0" mask="0"/>
+<weight nodefrom="4" nodeto="2" weight="0" mask="0"/>
+<weight nodefrom="4" nodeto="3" weight="0" mask="0"/>
+<weight nodefrom="4" nodeto="4" weight="0" mask="0"/>
+</network>
+
